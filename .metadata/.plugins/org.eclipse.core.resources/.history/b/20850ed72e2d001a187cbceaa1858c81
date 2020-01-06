@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<c:set var="contextPath" value="${pageContext.request.contextPath}" />
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+
+<link href="${contextPath}/resources/css/bootstrap.min.css"
+	rel="stylesheet">
+<style type="text/css">
+.container {
+	padding-top: 20px;
+	margin-left: 1400px;
+}
+
+.b {
+	color: red;
+}
+
+.order {
+	font-size: 24px;
+	font-family: serif;
+}
+</style>
+</head>
+
+<body>
+	<header>
+		<jsp:include page="/WEB-INF/jsp/logout.jsp"></jsp:include>
+	</header>
+	<div class="order">
+		 Your order is successful !!!!
+	</div>
+	<%-- <jsp:include page="/WEB-INF/jsp/logout.jsp"></jsp:include> --%>
+	<!-- /container -->
+	
+</body>
+</html>

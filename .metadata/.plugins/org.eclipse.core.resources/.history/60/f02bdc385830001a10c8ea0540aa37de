@@ -1,0 +1,68 @@
+#port and context path
+  
+server:
+  port: 8083
+  servlet:
+    context-path: /auth
+    
+#application name
+    
+spring:
+  application:
+    name: apigateway
+    
+#Db properties
+    
+  datasource:
+    url:  jdbc:mysql://apigateway-mysql:3306/kingslive     #192.168.1.133:3306
+    username: kings
+    password: kings
+    
+# jpa & hibernate properties
+     
+  jpa:
+    show-sql: true 
+    properties :
+      hibernate.dialect : org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy 
+ 
+#session configuration
+ 
+  session:    store-type: jdbc
+    jdbc:      initialize-schema: always 
+    #timeout: 10
+    
+#Mvc Configuration form view resolver
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    enabled: true
+    mode: HTML
+    prefix: classpath:/templates/
+    suffix: .html
+    servlet:      content-type: text/html
+  #mvc:    # view:    # prefix: /WEB-INF/jsp/
+    # suffix: .jsp    
+     
+#eureka registration
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.99.100:8761/eureka/
+      
+#ZUUL routes  
+    
+zuul:
+ routes:
+    orderitems:
+      path: /orderitem/*
+      service-id: orderitems
+      strip-prefix: false
+     
+      
+      
+    

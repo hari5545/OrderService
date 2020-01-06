@@ -1,0 +1,16 @@
+version: "3"
+services:
+  api-gateway:
+    image: api-gateway
+    ports:
+      - "8083:8083"
+    depends_on:
+      - api-gateway-mysql
+ 
+  api-gateway-mysql:
+    image: mysql
+    environment:
+      MYSQL_DATABASE: kingslive
+      MYSQL_ROOT_PASSWORD: kings
+    ports:
+      - "3306:3306"

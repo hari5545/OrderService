@@ -1,0 +1,43 @@
+version: "3"
+services:
+  eureka-server:
+    image: eureka-server
+    ports:
+      - 8761:8761
+    volumes:
+      - /data/mysql
+    build:
+      context: ./
+      dockerfile: Dockerfile
+  
+  apigateway-mysql:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=kings
+      - MYSQL_DATABASE=kingslive
+      - MYSQL_USER=kings
+      - MYSQL_PASSWORD=kings
+    ports:
+      - 3306:3306
+      
+  api-gateway:
+    image: api-gateway
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - apigateway-mysql 
+    depends_on:
+      - eureka-server
+    ports:
+      - 8083:8083
+      
+  orderitemsapplication:
+    image: order-item
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - eureka-server
+    ports:
+      - 7878:7878

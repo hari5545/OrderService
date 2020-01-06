@@ -1,0 +1,30 @@
+#port and context path
+  
+server:
+  port: 8083
+  servlet:
+    context-path: /auth
+    
+#application name
+    
+spring:
+  application:
+    name: apigateway
+    
+
+    
+#Mvc Configuration form view resolver
+  thymeleaf:
+    cache: false
+    check-template: true
+    check-template-location: true
+    enabled: true
+    mode: HTML
+    prefix: classpath:/templates/
+    suffix: .html
+    servlet:
+      content-type: text/html
+  #mvc: 
+   # view:
+    # prefix: /WEB-INF/jsp/
+    # suffix: .jsp    

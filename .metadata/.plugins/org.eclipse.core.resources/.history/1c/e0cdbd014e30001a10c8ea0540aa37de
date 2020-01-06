@@ -1,0 +1,19 @@
+package com.orderItems.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.orderItems.entity.OrderDetailsEntity;
+
+@Controller
+@RequestMapping("/save")
+public class OrdderDetailsController {
+	@RequestMapping(value = "/orderdetail",method = RequestMethod.GET)
+	public String view() {
+		return "hello";
+	}
+}

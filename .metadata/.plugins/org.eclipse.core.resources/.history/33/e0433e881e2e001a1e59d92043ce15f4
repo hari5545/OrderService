@@ -1,0 +1,16 @@
+version: "3"
+services:
+  mysql:
+    image: mysql:latest
+ 
+  api-gateway:
+    image: api-gateway
+    ports:
+      - 8083:8083
+  eureka-server:
+    image: eureka-server
+    ports:
+      -8761:8761
+    environment:
+      POSTGRES_USER: todoapp
+      POSTGRES_DB: todos
