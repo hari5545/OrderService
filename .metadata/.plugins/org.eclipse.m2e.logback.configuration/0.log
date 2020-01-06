@@ -15202,3 +15202,48 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2020-01-06 14:52:44,858 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
 2020-01-06 14:52:44,861 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-01-06 14:52:44,861 [Worker-93: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\OrderService\APIGateWay\src\test\resources
+2020-01-06 15:20:52,574 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:20:52,574 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-06 15:20:52,575 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-06 15:20:52,576 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:20:52,576 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\OrderService\APIGateWay\src\test\resources
+2020-01-06 15:20:56,897 [Worker-94: Launching Executing install in E__OrderService_APIGateWay] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\OrderService\APIGateWay
+2020-01-06 15:20:56,897 [Worker-94: Launching Executing install in E__OrderService_APIGateWay] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-01-06 15:21:46,777 [Worker-95: Launching Executing install in E__OrderService_APIGateWay] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\OrderService\APIGateWay
+2020-01-06 15:21:46,777 [Worker-95: Launching Executing install in E__OrderService_APIGateWay] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-01-06 15:21:51,465 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:21:51,466 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-06 15:21:51,468 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-06 15:21:51,470 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:21:51,470 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\OrderService\APIGateWay\src\test\resources
+2020-01-06 15:28:23,716 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:28:23,717 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-06 15:28:23,719 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-06 15:28:23,721 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:28:23,721 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\OrderService\APIGateWay\src\test\resources
+2020-01-06 15:28:29,878 [Worker-94: Launching Executing install in E__OrderService_APIGateWay] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\OrderService\APIGateWay
+2020-01-06 15:28:29,878 [Worker-94: Launching Executing install in E__OrderService_APIGateWay] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-01-06 15:28:34,771 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:28:34,772 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-06 15:28:34,775 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-06 15:28:34,778 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:28:34,778 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\OrderService\APIGateWay\src\test\resources
+2020-01-06 15:39:49,026 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:39:49,026 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-06 15:39:49,027 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-06 15:39:49,030 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:39:49,030 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\OrderService\APIGateWay\src\test\resources
+2020-01-06 15:40:08,453 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:40:08,453 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-06 15:40:08,453 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-06 15:40:08,457 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:40:08,457 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\OrderService\APIGateWay\src\test\resources
+2020-01-06 15:40:56,829 [Worker-102: Launching Executing install in E__OrderService_APIGateWay] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\OrderService\APIGateWay
+2020-01-06 15:40:56,829 [Worker-102: Launching Executing install in E__OrderService_APIGateWay] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-01-06 15:41:26,984 [Worker-102: Launching Executing install in E__OrderService_APIGateWay] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\OrderService\APIGateWay
+2020-01-06 15:41:26,984 [Worker-102: Launching Executing install in E__OrderService_APIGateWay] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-01-06 15:41:34,844 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:41:34,845 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-01-06 15:41:34,847 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-01-06 15:41:34,849 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-06 15:41:34,849 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\OrderService\APIGateWay\src\test\resources
